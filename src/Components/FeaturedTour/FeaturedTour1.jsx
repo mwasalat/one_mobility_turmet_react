@@ -47,10 +47,11 @@ const FeaturedTour1 = () => {
       };       
 
       const tourContent = [
-        {img:'/assets/img/feature/01.jpg', location:'Nederland', title:'Best Time Ever to Explore <br>Molinas Nature', price:'$49.00'},                  
-        {img:'/assets/img/feature/02.jpg', location:'Thailand', title:'Bathing and Kayaking at <br>Nonrival Beach', price:'$49.00'},                  
-        {img:'/assets/img/feature/03.jpg', location:'Austria', title:'5 Best Tips for an Amazing <br>Molina Trip', price:'$49.00'},                  
-        {img:'/assets/img/feature/04.jpg', location:'Slingerland', title:'Discover Beautiful Moliva: <br>Natures Paradise', price:'$49.00'},                               
+        
+        {img:'/assets/img/destails/Premier-Auto-Rental-&-Fleet-Solutions.png', location:'UAE', title:'Premier Auto Rental <br>& Fleet Solutions', price:'Quote'},                  
+        {img:'/assets/img/destails/Safe-&-Reliable-Taxi-Services.png', location:'UAE', title:'Safe & Reliable <br>Taxi Services', price:'Quote'},                  
+        {img:'/assets/img/destails/Leading-In-Technology 1.png', location:'UAE & Egypt', title:'Public Transport <br>Services', price:'Quote'},                  
+        {img:'/assets/img/destails/School-Transportation-Services.png', location:'UAE', title:'School Transportation <br>Services', price:'Quote'},                               
       ]; 
 
 
@@ -58,7 +59,7 @@ const FeaturedTour1 = () => {
         <section className="featured-tour-section section-padding section-bg">
             <div className="left-shape">
                 <img src="/assets/img/feature/plane-shape.png" alt="img" />
-            </div>
+            </div> 
             <div className="right-shape">
                 <img src="/assets/img/feature/plane-shape.png" alt="img" />
             </div>
@@ -69,14 +70,14 @@ const FeaturedTour1 = () => {
             <div className="container">
                 <div className="section-title">
                     <span className="sub-title wow fadeInUp">
-                        Featured Tour
+                        Our Services
                     </span>
                     <h2 className="wow fadeInUp wow" data-wow-delay=".5s">
-                        unforgettable Travel Discoveries
+                        Mwasalat Holdings Services
                     </h2>
                 </div>
                 <p className="wow fadeInUp wow" data-wow-delay=".7s">
-                    There are many variations of passages of  available, but the majority have suffered alteration in some <br/> form, by injected humour words which don't look even slightly believable 
+                    From auto rental and taxi to public and school transport, insurance, automobile trading, service center, and cutting-edge technology—we deliver mobility solutions for smarter cities.
                 </p>
                 <div className="swiper tour-slider">
                     <div className="swiper-wrapper cs_slider_gap_301">
@@ -95,14 +96,12 @@ const FeaturedTour1 = () => {
                                 </div>
                                 <div className="feature-tour-content">
                                     <h4>
-                                        <Link to="/tour/tour-details">
+                                        <Link to="/contact">
                                         {parse(item.title)}
                                         </Link>
                                     </h4>
-                                    <h5>
-                                    {item.price}<span>/Per day</span>
-                                    </h5>
-                                    <Link to="/tour/tour-details" className="icon">
+                                   
+                                    <Link to="/contact" className="icon">
                                     <i className="bi bi-arrow-right"></i>
                                     </Link>
                                 </div>

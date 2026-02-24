@@ -2,7 +2,7 @@ import React from 'react';
 
 const Counter1 = () => {
     return (
-        <section className="counter-section theme-bg fix">
+        <section className="counter-section theme-bg fix" style={{display: 'none'}}>
             <div className="container">
                 <div className="counter-wrapper">
                     <div className="counter-items wow fadeInUp wow" data-wow-delay=".2s">

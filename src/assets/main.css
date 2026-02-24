@@ -231,7 +231,7 @@ h4 {
 }
 
 h5 {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -1570,10 +1570,16 @@ span {
   outline: none;
   border: none;
   border-radius: 100px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   padding: 16px 20px;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
   font-weight: 400;
+}
+.contact-us-wrapper .contact-us-contact .comment-form-wrap .form-clt input:focus, .contact-us-wrapper .contact-us-contact .comment-form-wrap .form-clt textarea:focus {
+  border-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.15);
+  outline: none;
 }
 .contact-us-wrapper .contact-us-contact .comment-form-wrap .form-clt input::placeholder, .contact-us-wrapper .contact-us-contact .comment-form-wrap .form-clt textarea::placeholder {
   color: var(--white);
@@ -2360,10 +2366,13 @@ span {
 .counter-wrapper-2 .counter-items-2.style-2 {
   border: none;
   margin-right: 0;
+  display: none !important;
+
 }
 
 .counter-section-2 .container-fluid {
   padding: 0px 0px 0px 120px;
+  display: none !important;
 }
 @media (max-width: 1399px) {
   .counter-section-2 .container-fluid {
@@ -4941,6 +4950,12 @@ span {
 }
 .footer-widget-wrapper-new .single-widget-items .widget-head {
   margin-bottom: 30px;
+}
+.footer-logo-small {
+  max-width: 280px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 .footer-widget-wrapper-new .single-widget-items .widget-head h4 {
   color: var(--white);
@@ -10005,4 +10020,61 @@ input.main-search-input::placeholder {
 }
 .hero-1 .hero-content .booking-list-area .booking-list .form .single-select option{
   color: #000;
+}
+
+/* Site logo responsive sizing */
+.site-logo {
+  height: 300px;
+  width: auto;
+}
+@media (max-width: 991px) {
+  .site-logo {
+    height: 120px;
+  }
+}
+
+/* Ensure website domain text is lowercase */
+.contact-items h6 a,
+.contact-box-items h6 a {
+  text-transform: none !important;
+}
+
+.contact-items h6,
+.contact-box-items h6 {
+  text-transform: none !important;
+}
+@media (max-width: 575px) {
+  .site-logo {
+    height: 70px;
+  }
+}
+
+/* Entities Section */
+.entities-section {
+  background-color: #f8f9fa;
+  padding: 60px 0;
+}
+
+.entity-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease;
+}
+
+.entity-card:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.13);
+  transform: translateY(-4px);
+}
+
+.entity-card img {
+  max-width: 100%;
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
 }

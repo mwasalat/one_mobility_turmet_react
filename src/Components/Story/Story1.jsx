@@ -28,20 +28,22 @@ const Story1 = () => {
             </div>
             <div className="container">
                 <div className="section-title text-center">
-                    <span className="sub-title wow fadeInUp">
-                        Watch Our Story
+                    <span className="sub-title wow fadeInUp" style={{color: '#fff'}}>
+                        GCEO MESSAGE
                     </span>
-                    <h2 className="wow fadeInUp wow" data-wow-delay=".3s">
-                        Unforgettable Travel Experiences <br/>
-                        Get Your Guide
+                    <h2 className="wow fadeInUp text-white" data-wow-delay=".3s">
+                        A Legendary Success Story
                     </h2>
+                    <p className="wow fadeInUp text-white" data-wow-delay=".5s" style={{maxWidth: '700px', margin: '0 auto 20px'}}>
+                        A legendary success story based on efficiency, integrity and over three decades of experience. An integral part of the growth story of this amazing country and the vision of its leaders.
+                    </p>
                 </div>
                 <div className="video-wrapper">
                     <div className="watch-button">
                         <Link to="/contact" className="theme-btn wow fadeInUp wow" data-wow-delay=".5s">Contact Us<i className="bi bi-arrow-right"></i></Link>
-                        <Link to="/tour/tour-details" className="theme-btn style-2 wow fadeInUp wow" data-wow-delay=".7s">Book Now<i className="bi bi-arrow-right"></i></Link>
+                        <Link to="/contact" className="theme-btn style-2 wow fadeInUp wow" data-wow-delay=".7s">Request a Quote<i className="bi bi-arrow-right"></i></Link>
                     </div>
-                    <div className="video-image bg-cover" data-background="/assets/img/video-bg.jpg" >
+                    <div className="video-image bg-cover" data-background="/assets/img/video-bg.png" >
                         <a onClick={handelClick} className="video-btn video-popup">
                         <i className="bi bi-play-fill"></i>
                         </a>

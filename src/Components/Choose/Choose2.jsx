@@ -8,7 +8,10 @@ const Choose2 = () => {
             }, []);
 
     return (
-        <section className="choose-us-section section-padding bg-cover fix" data-background="/assets/img/choose-us-bg-2.jpg" >
+        <section className="choose-us-section section-padding bg-cover fix" data-background="/assets/img/choose-us-bg-2.jpg" style={{position: 'relative'}}>
+            {/* <div className="float-bob-x" style={{position: 'absolute', top: '50px', left: '30px', zIndex: 10}}>
+                <img src="/assets/img/destination/drone.png" alt="drone" style={{width: '120px'}} />
+            </div> */}
             <div className="container">
                 <div className="choose-us-wrapper">
                     <div className="row g-4 align-items-center">
@@ -19,11 +22,11 @@ const Choose2 = () => {
                                         Why Choose Us
                                     </span>
                                     <h2 className="wow fadeInUp wow" data-wow-delay=".3s">
-                                        Get The Best Travel Experience
+                                        Welcome to Mwasalat Holdings
                                     </h2>
                                 </div>
                                 <p className="wow fadeInUp wow" data-wow-delay=".3s">
-                                    There are many variations of passages of  available, but the majority have suffered alteration in <br/> some form, by injected humour words which don't look even slightly believable 
+                                    We own a diverse portfolio of companies catering to various market segments in the transportation industry. Every company feeds off the expertise, experience and networks of the group to deliver world-class mobility solutions.
                                 </p>
                                 <div className="choose-us-area">
                                     <div className="line-shape">
@@ -35,11 +38,10 @@ const Choose2 = () => {
                                         </h3>
                                         <div className="content">
                                             <h4>
-                                                Find ans enjoy a Trip that fits Your Lifestyle with <br/>
-                                                your Friends
+                                                Innovation & Technology
                                             </h4>
                                             <p>
-                                                Globally productize flexible potentialities via high-payoff markets. Proactively <br/> revolutionize parallel growth strategies.
+                                                We utilize the latest technologies to make our services <br/> more convenient, accessible, and environmentally responsible.
                                             </p>
                                         </div>
                                     </div>
@@ -49,10 +51,10 @@ const Choose2 = () => {
                                         </h3>
                                         <div className="content">
                                             <h4>
-                                                Travel With More Confidence
+                                                Expertise & Experience
                                             </h4>
                                             <p>
-                                                Globally productize flexible potentialities via high-payoff markets. Proactively <br/> revolutionize parallel growth strategies.
+                                                Our team includes experts in transportation, engineering, <br/> and technology, dedicated to continuous improvement and innovation.
                                             </p>
                                         </div>
                                     </div>
@@ -62,10 +64,10 @@ const Choose2 = () => {
                                         </h3>
                                         <div className="content">
                                             <h4>
-                                                See What you really Get form us
+                                                Commitment to Excellence
                                             </h4>
                                             <p>
-                                                Globally productize flexible potentialities via high-payoff markets. Proactively <br/> revolutionize parallel growth strategies.
+                                                We are committed to delivering the highest level of service <br/> and setting benchmarks in the field of mobility.
                                             </p>
                                         </div>
                                     </div>
@@ -74,11 +76,11 @@ const Choose2 = () => {
                         </div>
                         <div className="col-xl-5 col-lg-6 wow fadeInUp wow" data-wow-delay=".3s">
                             <div className="choose-us-thumb">
-                                <img src="/assets/img/choose-us-bg.png" alt="img" className="wow img-custom-anim-left" />
+                                <img src="/assets/img/mwasalat_smart_city.jpg" alt="img" className="wow img-custom-anim-left" />
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
             </div>
         </section>
     );

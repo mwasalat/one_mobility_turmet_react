@@ -6,7 +6,7 @@ const DestinationDetailsPage = () => {
     return (
         <div>
              <BreadCumb
-                bgimg="/assets/img/breadcrumb/breadcrumb.jpg"
+                bgimg="/assets/img/breadcrumb/header-banner-02.jpg"
                 Title="Destination Details"
             ></BreadCumb>    
             <DestinationDetails></DestinationDetails>        

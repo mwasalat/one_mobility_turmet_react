@@ -18,6 +18,15 @@ import ContactPage from "../Pages/ContactPage";
 import BlogGrid from "../Pages/BlogGrid";
 import BlogDetailsPage from "../Pages/BlogDetailsPage";
 import BlogSidebarPage from "../Pages/BlogSidebarPage";
+// Service Pages
+import AutoRentalPage from "../Pages/Services/AutoRentalPage";
+import TaxiPage from "../Pages/Services/TaxiPage";
+import PublicTransportPage from "../Pages/Services/PublicTransportPage";
+import SchoolTransportPage from "../Pages/Services/SchoolTransportPage";
+import InsurancePage from "../Pages/Services/InsurancePage";
+import AutomobileTradingPage from "../Pages/Services/AutomobileTradingPage";
+import ServiceCenterPage from "../Pages/Services/ServiceCenterPage";
+import TechnologyPage from "../Pages/Services/TechnologyPage";
 
 export const router = createBrowserRouter([
     {
@@ -80,7 +89,39 @@ export const router = createBrowserRouter([
           path: "/blog/blog-details",
           Component: BlogDetailsPage
         },
-
+        // Service Pages
+        {
+          path: "/services/auto-rental",
+          Component: AutoRentalPage
+        },
+        {
+          path: "/services/taxi",
+          Component: TaxiPage
+        },
+        {
+          path: "/services/public-transport",
+          Component: PublicTransportPage
+        },
+        {
+          path: "/services/school-transport",
+          Component: SchoolTransportPage
+        },
+        {
+          path: "/services/insurance",
+          Component: InsurancePage
+        },
+        {
+          path: "/services/automobile-trading",
+          Component: AutomobileTradingPage
+        },
+        {
+          path: "/services/service-center",
+          Component: ServiceCenterPage
+        },
+        {
+          path: "/services/technology",
+          Component: TechnologyPage
+        },
 
       ],
     },

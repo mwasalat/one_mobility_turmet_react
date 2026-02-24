@@ -41,7 +41,7 @@ export default function Header1({ variant }) {
           <div className="cs_main_header_in">
             <div className="cs_main_header_left">
             <Link className="cs_site_branding" to="/">
-                <img src="/assets/img/logo/white-logo.svg" alt="Logo" />
+                <img src="/assets/img/logo/mwasalat_holding_white_LOGO.png" alt="Mwasalat Holdings" className="site-logo" />
               </Link>
               </div>
               <div className="cs_main_header_center">
@@ -64,7 +64,7 @@ export default function Header1({ variant }) {
                 <div className="main-button header-btn-1">
                 <a onClick={() => setSearchToggle(!searchToggle)} className="search-trigger search-icon"><i className="bi bi-search"></i></a>
                 <Link to="/contact" className='theme-btn'>
-                <span> Request A Quote <i className="bi bi-arrow-right"></i></span></Link>
+                <span> Contact Us <i className="bi bi-arrow-right"></i></span></Link>
                   </div>
 
               </div>

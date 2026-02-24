@@ -25,7 +25,7 @@ const Home3 = () => {
             <DealOffers1></DealOffers1>
             <Testimonial1></Testimonial1>
             <Choose1></Choose1>
-            <Team1></Team1>
+            {/* <Team1></Team1> */}
             <Cta2></Cta2>
             <Blog1></Blog1>
             <Brand1></Brand1>

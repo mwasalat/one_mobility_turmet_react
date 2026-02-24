@@ -1,15 +1,15 @@
 import React from 'react';
 import BreadCumb from '../Components/Common/BreadCumb';
-import Tour from '../Components/Tour/Tour';
+import Testimonial2 from '../Components/Testimonial/Testimonial2';
 
 const TourPage = () => {
     return (
         <div>
              <BreadCumb
-                bgimg="/assets/img/breadcrumb/breadcrumb.jpg"
-                Title="Tour"
+                bgimg="/assets/img/breadcrumb/header-banner-02.jpg"
+                Title="GCEO Message"
             ></BreadCumb>    
-            <Tour></Tour>       
+            <Testimonial2></Testimonial2>       
         </div>
     );
 };

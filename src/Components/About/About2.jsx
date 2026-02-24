@@ -9,18 +9,12 @@ const About2 = () => {
                     <div className="row g-4">
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="/assets/img/about/03.jpg" alt="img" className="wow img-custom-anim-left" />
+                                <img src="/assets/img/about/03.png" alt="img" className="wow img-custom-anim-left" />
                                 <div className="shape-image float-bob-y">
                                     <img src="/assets/img/about/04.png" alt="img" />
                                 </div>
-                                <div className="group-image float-bob-x">
-                                    <img src="/assets/img/about/group.png" alt="img" />
-                                </div>
                                 <div className="about-image-2">
                                     <img src="/assets/img/about/05.jpg" alt="img" className="wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s" />
-                                    <div className="plane-shape">
-                                        <img src="/assets/img/about/plane-shape2.png" alt="img" />
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -28,15 +22,15 @@ const About2 = () => {
                             <div className="about-content">
                                 <div className="section-title">
                                     <span className="sub-title wow fadeInUp">
-                                        Get About Us
+                                        Genesis About Us
                                     </span>
                                     <h2 className="wow fadeInUp wow" data-wow-delay=".3s">
-                                        We're Strived Only For The
-                                        Best In The World
+                                        We Are Committed to Innovation,
+                                        Customer Service & Environmental Responsibility
                                     </h2>
                                 </div>
                                 <p className="wow fadeInUp wow" data-wow-delay=".5s">
-                                    There are many variations of passages of  available, but the majority have suffered alteration in some form, by injected humour words which don't look even slightly believable injected humour words which
+                                    Mwasalat Holdings is a group of companies that work to make it easier, faster and more convenient for you to get around. We provide transportation options that are dependable, cost-effective and environmentally conscious enhancing the daily lives of all our urban residents.
                                 </p>
                                 <div className="about-items wow fadeInUp wow" data-wow-delay=".3s">
                                     <div className="about-icon-items">
@@ -45,13 +39,13 @@ const About2 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Easy Booking <br/> System
+                                                Wide Range of <br/> Services
                                             </h5>
                                         </div>
                                     </div>
                                     <div className="text">
                                         <p>
-                                            Our hotel also prides itself on <br/> offering exceptional services.
+                                            Auto rental, taxi, public & school transport, <br/> insurance, trading, service center & technology.
                                         </p>
                                     </div>
                                 </div>
@@ -62,13 +56,13 @@ const About2 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Easy Booking <br/> System
+                                                Expert Team <br/> & Know-How
                                             </h5>
                                         </div>
                                     </div>
                                     <div className="text">
                                         <p>
-                                            Our hotel also prides itself on <br/> offering exceptional services.
+                                            Experts in transportation & technology <br/> delivering the highest level of service.
                                         </p>
                                     </div>
                                 </div>

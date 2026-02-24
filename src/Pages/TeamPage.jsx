@@ -6,7 +6,7 @@ const TeamPage = () => {
     return (
         <div>
               <BreadCumb
-                bgimg="/assets/img/breadcrumb/breadcrumb.jpg"
+                bgimg="/assets/img/breadcrumb/header-banner-02.jpg"
                 Title="Our Team"
             ></BreadCumb>  
             <Team2></Team2>            

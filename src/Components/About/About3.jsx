@@ -29,27 +29,28 @@ const About3 = () => {
                         <div className="col-lg-6">
                             <div className="about-content">
                                 <div className="section-title">
-                                    <span className="sub-title wow fadeInUp">Get About Us</span>
+                                    <span className="sub-title wow fadeInUp">Mission & Vision</span>
                                     <h2 className="wow fadeInUp wow" data-wow-delay=".3s">
-                                        Take The Best Weekend <br/>
-                                         And Enjoy Your Place
+                                        Mwasalat Holdings Vision for <br/>
+                                        Smarter, Sustainable Cities
                                     </h2>
                                 </div>
                                 <p className="wow fadeInUp wow" data-wow-delay=".5s">
-                                    There are many variations of passages of  available, but the majority have suffered alteration in some form, by injected humour words which don't look even slightly believable injected humour words which
+                                    Mwasalat Holdings is a group of companies that precisely enhances mass transit approachability, efficiency, and convenience for smarter cities worldwide. It provides reliable, affordable, and sustainable transportation solutions that improve the daily lives of all urban residents.
                                 </p>
                                 <div className="about-items wow fadeInUp wow" data-wow-delay=".3s">
                                     <div className="about-icon-items">
                                         <div className="icon">
-                                            <img src="/assets/img/icon/13.svg" alt="img" />
+                                            <i className="bi bi-target"></i>
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                Set Travel Plan
+                                                Our Mission
                                             </h4>
                                             <p>
-                                                There are many variations of passages <br/>
-                                                of  available, but the majority
+                                                To deliver sustainable world class mobility services <br/>
+                                                experience by leveraging on Technology, Intellectual <br/>
+                                                resources, and a fabulous infrastructure.
                                             </p>
                                         </div>
                                     </div>
@@ -57,15 +58,16 @@ const About3 = () => {
                                 <div className="about-items wow fadeInUp wow" data-wow-delay=".5s">
                                     <div className="about-icon-items">
                                         <div className="icon">
-                                            <img src="/assets/img/icon/14.svg" alt="img" />
+                                            <i className="bi bi-eye-fill"></i>
                                         </div>
                                         <div className="content">
                                             <h4>
-                                                Explore Around
+                                                Our Vision
                                             </h4>
                                             <p>
-                                                There are many variations of passages <br/>
-                                                 of  available, but the majority
+                                                To be the premier and most-admired mobility service <br/>
+                                                provider in the global mobility landscape through one <br/>
+                                                platform that offers a sustainable value for all stakeholders.
                                             </p>
                                         </div>
                                     </div>

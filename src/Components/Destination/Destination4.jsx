@@ -4,21 +4,21 @@ import { Link } from 'react-router';
 const Destination4 = () => {
 
     const destinationContent = [
-        {img:'/assets/img/destination/01.jpg', location:'Indonesia', title:'Brooklyn Beach Resort Tour', rating:'4.7', day:'10 Days', number:'50+', price:'$59.00'},      
-        {img:'/assets/img/destination/02.jpg', location:'Indonesia', title:'Pak Chumphon Town Tour ', rating:'4.7', day:'10 Days', number:'50+', price:'$59.00'},      
-        {img:'/assets/img/destination/03.jpg', location:'Indonesia', title:'Java & Bali One Life Adventure', rating:'4.7', day:'10 Days', number:'50+', price:'$59.00'},      
-        {img:'/assets/img/destination/04.jpg', location:'Indonesia', title:'Places To Travel In November', rating:'4.7', day:'10 Days', number:'50+', price:'$59.00'},      
-        {img:'/assets/img/destination/05.jpg', location:'Indonesia', title:'Brooklyn Beach Resort Tour', rating:'4.7', day:'10 Days', number:'50+', price:'$59.00'},      
-        {img:'/assets/img/destination/06.jpg', location:'Indonesia', title:'Pak Chumphon Town Tour ', rating:'4.7', day:'10 Days', number:'50+', price:'$59.00'},      
-        {img:'/assets/img/destination/07.jpg', location:'Indonesia', title:'Java & Bali One Life Adventure', rating:'4.7', day:'10 Days', number:'50+', price:'$59.00'},      
-        {img:'/assets/img/destination/08.jpg', location:'Indonesia', title:'Places To Travel In November', rating:'4.7', day:'10 Days', number:'50+', price:'$59.00'},       
+        {img:'/assets/img/destails/Premier-Auto-Rental-&-Fleet-Solutions.png', location:'UAE', title:'Premier Auto Rental Services', rating:'4.7', day:'Daily', number:'20+', price:'Quote'},      
+        {img:'/assets/img/destails/Safe-&-Reliable-Taxi-Services.png', location:'UAE', title:'Taxi Services', rating:'4.7', day:'24/7', number:'2000+', price:'Quote'},      
+        {img:'/assets/img/destails/Leading-In-Technology 1.png', location:'UAE & Egypt', title:'Public Transport', rating:'4.7', day:'Daily', number:'1000+', price:'Quote'},      
+        {img:'/assets/img/destails/School-Transportation-Services.png', location:'UAE', title:'School Transportation', rating:'4.7', day:'Daily', number:'350+', price:'Quote'},      
+        {img:'/assets/img/destails/Insurance-Brokers 1.png', location:'UAE', title:'Insurance Brokers', rating:'4.7', day:'—', number:'—', price:'Quote'},      
+        {img:'/assets/img/destails/Automobile-Trading 1.png', location:'UAE', title:'Automobile Trading', rating:'4.7', day:'—', number:'—', price:'Quote'},      
+        {img:'/assets/img/destails/Car-Service 1.png', location:'UAE', title:'Service Center', rating:'4.7', day:'Since 1997', number:'7500+', price:'Quote'},      
+        {img:'/assets/img/destails/Leading-In-Technology 1.png', location:'Global', title:'Leading in Technology', rating:'4.7', day:'—', number:'—', price:'Quote'},       
       ]; 
 
     return (
         <section className="popular-destination-section section-padding pb-0">
-            <div className="car-shape float-bob-x">
-                <img src="/assets/img/destination/car.png" alt="img" />
-            </div>
+            {/* <div className="car-shape float-bob-x">
+                <img src="/assets/img/destination/drone.png" alt="img" />
+            </div> */}
             <div className="container">
                 <div className="row g-4">
                 {destinationContent.map((item, i) => (
@@ -26,9 +26,6 @@ const Destination4 = () => {
                         <div className="destination-card-items mt-0">
                             <div className="destination-image">
                                 <img src={item.img} alt="img" />
-                                <div className="heart-icon">
-                                <i className="bi bi-heart"></i>
-                                </div>
                             </div>
                             <div className="destination-content">
                                 <ul className="meta">
@@ -44,7 +41,7 @@ const Destination4 = () => {
                                     </li>
                                 </ul>
                                 <h5>
-                                    <Link to="/tour/tour-details">
+                                    <Link to="/contact">
                                     {item.title}
                                     </Link>
                                 </h5>
@@ -59,8 +56,7 @@ const Destination4 = () => {
                                     </li>
                                 </ul>
                                 <div className="price">
-                                    <h6>{item.price}<span>/Per day</span></h6>
-                                    <Link to="/tour/tour-details" className="theme-btn style-2">Book Now<i className="bi bi-arrow-right"></i></Link>
+                                    <Link to="/contact" className="theme-btn style-2">Request Quote<i className="bi bi-arrow-right"></i></Link>
                                 </div>
                             </div>
                         </div>

@@ -7,9 +7,9 @@ import { Link } from 'react-router';
 const HeroBanner3 = () => {
 
     const heroContent = [
-        {img:'/assets/img/hero/03.png', subtitle:'Booking Now', title:' Lifelong Memories Just <br>A Few Days Away', content:'Making your dream to see the world come true is a thrilling and enriching goal. Traveling allows you to experience new cultures, cuisines, landscapes, and ways of life'},              
-        {img:'/assets/img/hero/04.png', subtitle:'Booking Now', title:' Lifelong Memories Just <br>A Few Days Away', content:'Making your dream to see the world come true is a thrilling and enriching goal. Traveling allows you to experience new cultures, cuisines, landscapes, and ways of life'},              
-        {img:'/assets/img/hero/03.png', subtitle:'Booking Now', title:' Lifelong Memories Just <br>A Few Days Away', content:'Making your dream to see the world come true is a thrilling and enriching goal. Traveling allows you to experience new cultures, cuisines, landscapes, and ways of life'},              
+        {img:'/assets/img/hero/03.png', subtitle:'Mwasalat Holdings', title:'Best-in-Class Mobility <br>Services & User Experience', content:'We leverage technology, intellectual resources, and a strong infrastructure to deliver reliable, affordable, and sustainable transportation solutions for smarter cities worldwide.'},              
+        {img:'/assets/img/hero/04.png', subtitle:'Mwasalat Holdings', title:'Premier Mobility Provider <br>Across the Region', content:'From auto rental and taxi services to public and school transport, insurance, automobile trading, and service centers—we are committed to innovation and excellence.'},              
+        {img:'/assets/img/hero/03.png', subtitle:'Mwasalat Holdings', title:'Shaping the Future <br>of Transportation', content:'Our team of experts in transportation, engineering, and technology is dedicated to delivering the highest level of service and continuing to innovate and improve.'},              
       ];     
 
        useEffect(() => {
@@ -69,8 +69,8 @@ const HeroBanner3 = () => {
                                             {item.content}
                                             </p>
                                             <div className="about-button" data-animation="fadeInUp" data-delay="1.8s">
-                                                <Link to="/tour/tour-details" className="theme-btn">Explore Flight<i className="bi bi-arrow-right"></i></Link>
-                                                <Link to="/tour/tour-details" className="theme-btn style-2">Book A Stay<i className="bi bi-arrow-right"></i></Link>
+                                                <Link to="/about" className="theme-btn">About Us<i className="bi bi-arrow-right"></i></Link>
+                                                <Link to="/contact" className="theme-btn style-2">Request a Quote<i className="bi bi-arrow-right"></i></Link>
                                             </div>
                                         </div>
                                     </div>

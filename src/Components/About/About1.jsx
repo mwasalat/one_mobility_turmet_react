@@ -60,10 +60,10 @@ const About1 = () => {
                         <div className="col-lg-6">
                             <div className="about-content">
                                 <div className="section-title">
-                                    <span className="sub-title wow fadeInUp">Let’s Go Together</span>
+                                    <span className="sub-title wow fadeInUp">Let’s Genesis About Us</span>
                                     <h2 className="wow fadeInUp wow" data-wow-delay=".2s">
-                                        Great opportunity for <br/>
-                                        adventure & travels
+                                        Mwasalat Holdings <br/>
+                                        Enhancing Mass Transit for Smarter Cities
                                     </h2>
                                 </div>
                                 <div className="about-area mt-4 mt-md-0">
@@ -76,10 +76,10 @@ const About1 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Exclusive Trip
+                                                Innovation & Technology
                                             </h5>
                                             <p>
-                                                There are many variations of passages <br/> of available, but the majority
+                                                We utilize the latest technologies to make our <br/> services more convenient and accessible
                                             </p>
                                         </div>
                                     </div>
@@ -89,10 +89,10 @@ const About1 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Safety first always
+                                                Safety & Reliability
                                             </h5>
                                             <p>
-                                                There are many variations of passages <br/> of available, but the majority
+                                                Reliable, affordable, and sustainable <br/> transportation solutions
                                             </p>
                                         </div>
                                     </div>
@@ -102,10 +102,10 @@ const About1 = () => {
                                         </div>
                                         <div className="content">
                                             <h5>
-                                                Professional Guide
+                                                Expert Team
                                             </h5>
                                             <p>
-                                                There are many variations of passages <br/> of available, but the majority
+                                                Experts in transportation, engineering, and <br/> technology dedicated to excellence
                                             </p>
                                         </div>
                                     </div>

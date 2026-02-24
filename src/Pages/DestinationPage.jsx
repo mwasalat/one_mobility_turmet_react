@@ -8,8 +8,8 @@ const DestinationPage = () => {
     return (
         <div>
              <BreadCumb
-                bgimg="/assets/img/breadcrumb/breadcrumb.jpg"
-                Title="Destination"
+                bgimg="/assets/img/breadcrumb/header-banner-02.jpg"
+                Title="Mission & Vision"
             ></BreadCumb>
              <Destination4></Destination4>
              <Story1></Story1>  

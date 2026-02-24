@@ -6,7 +6,7 @@ const BreadCumb = ({Title,bgimg}) => {
     
     useEffect(() => {
         loadBackgroudImages();
-      }, []);
+      }, [bgimg]);
 
     return (
 

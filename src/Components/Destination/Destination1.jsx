@@ -16,9 +16,9 @@ const Destination1 = () => {
 
     return (
         <section className="popular-destination-section section-padding pt-0">
-            <div className="car-shape float-bob-x">
-                <img src="/assets/img/destination/car.png" alt="img" />
-            </div>
+            {/* <div className="car-shape float-bob-x">
+                <img src="/assets/img/destination/drone.png" alt="img" />
+            </div> */}
             <div className="container">
                 <div className="section-title-area justify-content-between">
                     <div className="section-title">

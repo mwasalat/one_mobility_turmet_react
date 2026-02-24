@@ -7,9 +7,9 @@ const Heroanner1 = () => {
 
 
     const heroContent = [
-        {img:'/assets/img/hero/01.jpg', subtitle:'Get unforgettable pleasure with us', title:'Let’s make your best <br> trip with us'},
-        {img:'/assets/img/hero/02.jpg', subtitle:'Get unforgettable pleasure with us', title:'Let’s make your best <br> trip with us'},
-        {img:'/assets/img/hero/03.jpg', subtitle:'Get unforgettable pleasure with us', title:'Let’s make your best <br> trip with us'},
+        {img:'/assets/img/hero/01.jpg', subtitle:'Mobility for smarter cities worldwide', title:'Mwasalat Holdings <br> Your Partner in Urban Mobility'},
+        {img:'/assets/img/hero/02.jpg', subtitle:'Mobility for smarter cities worldwide', title:'Reliable, Affordable <br> Sustainable Transport'},
+        {img:'/assets/img/hero/03.jpg', subtitle:'Mobility for smarter cities worldwide', title:'Shaping the Future <br> of Transportation'},
       ];
 
       useEffect(() => {
@@ -133,16 +133,16 @@ const Heroanner1 = () => {
                                     <div className="counter-area">
                                         <div className="counter-items">
                                             <div className="counter-text">
-                                                <h2><span className="count">20.5</span>k</h2>
-                                                <p>Featured Projects</p>
+                                                <h2><span className="count">2000</span>+</h2>
+                                                <p>Taxi Fleet</p>
                                             </div>
                                             <div className="counter-text">
-                                                <h2><span className="count">100.5</span>k</h2>
-                                                <p>Luxury Houses</p>
+                                                <h2><span className="count">1000</span>+</h2>
+                                                <p>Buses</p>
                                             </div>
                                             <div className="counter-text">
-                                                <h2><span className="count">150.5</span>k</h2>
-                                                <p>Satisficed Clients</p>
+                                                <h2><span className="count">7500</span>+</h2>
+                                                <p>Vehicles Serviced</p>
                                             </div>
                                         </div>
                                     </div>

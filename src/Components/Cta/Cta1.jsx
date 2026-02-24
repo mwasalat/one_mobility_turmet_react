@@ -12,13 +12,13 @@ const Cta1 = () => {
                 <div className="col-lg-6 col-md-6 wow fadeInUp wow" data-wow-delay=".3s">
                     <div className="cta-items">
                         <div className="cta-text">
-                            <h2>35% OFF</h2>
+                            <h2>Mwasalat Holdings</h2>
                             <p>
-                                Explore The World tour <br/>
-                                Hotel Booking.
+                                Premier Auto Rental <br/>
+                                & Fleet Solutions.
                             </p>
                         </div>
-                        <Link to="/tour/tour-details" className="theme-btn">BOOK NOW <i className="bi bi-arrow-right"></i></Link>
+                        <Link to="/contact" className="theme-btn">Request a Quote <i className="bi bi-arrow-right"></i></Link>
                         <div className="cta-image">
                             <img src="/assets/img/bag-shape.png" alt="img" />
                         </div>
@@ -27,13 +27,13 @@ const Cta1 = () => {
                 <div className="col-lg-6 col-md-6 wow fadeInUp wow" data-wow-delay=".5s">
                     <div className="cta-items style-2">
                         <div className="cta-text">
-                            <h2>35% OFF</h2>
+                            <h2>24/7 Service</h2>
                             <p>
-                                On Flight Ticket Grab <br/>
-                                This Now.
+                                Taxi & Transport <br/>
+                                When You Need It.
                             </p>
                         </div>
-                        <Link to="/tour/tour-details" className="theme-btn">BOOK NOW <i className="bi bi-arrow-right"></i></Link>
+                        <Link to="/contact" className="theme-btn">Request a Quote <i className="bi bi-arrow-right"></i></Link>
                         <div className="cta-image">
                             <img src="/assets/img/plane-shape.png" alt="img" />
                         </div>

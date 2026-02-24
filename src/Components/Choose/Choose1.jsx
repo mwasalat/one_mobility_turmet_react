@@ -39,7 +39,7 @@ const Choose1 = () => {
                     <div className="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
                         <div style={{position: 'relative'}}>
                             <img
-                                src="/assets/img/about/03.jpg"
+                                src="/assets/img/about/un_design.jpg"
                                 alt="Mwasalat Holdings"
                                 style={{width: '100%', borderRadius: '16px', objectFit: 'cover', maxHeight: '520px', boxShadow: '0 20px 60px rgba(0,0,0,0.15)'}}
                             />

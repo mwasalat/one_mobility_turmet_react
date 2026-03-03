@@ -63,7 +63,7 @@ const Destination2 = () => {
                                 justifyContent: 'center',
                                 marginBottom: '30px'
                             }}>
-                                <i className="fas fa-rocket" style={{ fontSize: '36px', color: '#fff' }}></i>
+                                <i className="bi bi-rocket-takeoff-fill" style={{ fontSize: '36px', color: '#fff' }}></i>
                             </div>
                             
                             <h3 style={{ color: '#fff', fontSize: '32px', fontWeight: '700', marginBottom: '20px' }}>
@@ -118,7 +118,7 @@ const Destination2 = () => {
                                 justifyContent: 'center',
                                 marginBottom: '30px'
                             }}>
-                                <i className="fas fa-eye" style={{ fontSize: '36px', color: '#fff' }}></i>
+                                <i className="bi bi-eye-fill" style={{ fontSize: '44px', color: '#fff' }}></i>
                             </div>
                             
                             <h3 style={{ color: '#0a2540', fontSize: '32px', fontWeight: '700', marginBottom: '20px' }}>

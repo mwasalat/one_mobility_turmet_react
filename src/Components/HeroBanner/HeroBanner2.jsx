@@ -14,7 +14,25 @@ const HeroBanner2 = () => {
             {/* <div className="float-bob-x" style={{position: 'absolute', bottom: '100px', left: '50px', zIndex: 10}}>
                 <img src="/assets/img/destination/drone.png" alt="drone" style={{width: '150px'}} />
             </div> */}
-            <div className="hero-2 bg-cover" data-background="/assets/img/hero/banner_01.png" style={{position: 'relative', backgroundPosition: 'center center', backgroundSize: 'cover'}}>
+            <div className="hero-2" style={{position: 'relative', backgroundPosition: 'center center', backgroundSize: 'cover', overflow: 'hidden'}}>
+                {/* Video Background */}
+                <video
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    style={{
+                        position: 'absolute',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        zIndex: 0
+                    }}
+                >
+                    <source src="/assets/img/Smart_Mobility_The_Tech_Vision_(No_People).mp4" type="video/mp4" />
+                </video>
                 <div style={{
                     position: 'absolute',
                     top: 0,
@@ -23,7 +41,7 @@ const HeroBanner2 = () => {
                     bottom: 0,
                     background: 'linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%)',
                     zIndex: 1,
-                    borderRadius: '20px'
+                    borderRadius: 'inherit'
                 }}></div>
                 <div className="container custom-container-3" style={{position: 'relative', zIndex: 2}}>
                     <div className="row">

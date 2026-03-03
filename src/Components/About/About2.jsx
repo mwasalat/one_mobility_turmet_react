@@ -14,7 +14,7 @@ const About2 = () => {
                                     <img src="/assets/img/about/04.png" alt="img" />
                                 </div>
                                 <div className="about-image-2">
-                                    <img src="/assets/img/about/05.jpg" alt="img" className="wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                                    <img src="/assets/img/about/05_img.png" alt="img" className="wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s" />
                                 </div>
                             </div>
                         </div>

@@ -27,9 +27,29 @@ sudo tee /etc/nginx/sites-available/dev.mwasalat.ae > /dev/null <<'NGINX'
 server {
     listen 80;
     server_name dev.mwasalat.ae;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl http2;
+    server_name dev.mwasalat.ae;
+
+    ssl_certificate     /etc/ssl/mwasalat/fullchain.pem;
+    ssl_certificate_key /etc/ssl/mwasalat/privkey.pem;
+    ssl_protocols       TLSv1.2 TLSv1.3;
+    ssl_ciphers         HIGH:!aNULL:!MD5;
 
     root /var/www/dev.mwasalat.ae;
     index index.html;
+
+    # Security headers
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header X-XSS-Protection "1; mode=block" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+    add_header Permissions-Policy "camera=(), microphone=(), geolocation=()" always;
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+    add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com; img-src 'self' data: https:; frame-src https://www.google.com https://www.youtube.com; connect-src 'self';" always;
 
     # Gzip
     gzip on;
@@ -56,8 +76,4 @@ sudo systemctl restart nginx
 
 echo ""
 echo "=== DONE! ==="
-echo "Site is live at: http://dev.mwasalat.ae"
-echo ""
-echo "To add HTTPS, run:"
-echo "  sudo apt install -y certbot python3-certbot-nginx"
-echo "  sudo certbot --nginx -d dev.mwasalat.ae"
+echo "Site is live at: https://dev.mwasalat.ae"

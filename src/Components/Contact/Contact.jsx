@@ -168,7 +168,7 @@ const Contact = () => {
                         <div className="col-lg-6">
                             <div className="map-area">
                                 <div className="google-map">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.5233894737!2d54.51904!3d24.375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5f6496464e925%3A0x54ea0e1a5d64e0e5!2s9G69%2B2W2%20Abu%20Dhabi%2C%20United%20Arab%20Emirates!5e0!3m2!1sen!2suae!4v1641984054261" loading="lazy" allowFullScreen="" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.5233894737!2d54.51904!3d24.375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae5f6496464e925%3A0x54ea0e1a5d64e0e5!2s9G69%2B2W2%20Abu%20Dhabi%2C%20United%20Arab%20Emirates!5e0!3m2!1sen!2suae!4v1641984054261" loading="lazy" allowFullScreen="" referrerPolicy="no-referrer-when-downgrade" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
                                 </div>
                             </div>
                         </div>

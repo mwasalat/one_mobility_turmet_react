@@ -4,7 +4,10 @@ export default function loadBackgroudImages() {
     if (backgroudImages.length > 0) {
       backgroudImages.forEach(element => {
         let image = element.dataset.background;
-        element.style.backgroundImage = `url('${image}')`;
+        // Sanitize: only allow relative paths and https URLs, block javascript: and data: URIs
+        if (image && /^(\/|https:\/\/)/.test(image) && !/[;'"()\\]/.test(image)) {
+          element.style.backgroundImage = `url('${image}')`;
+        }
       })
     }
   }

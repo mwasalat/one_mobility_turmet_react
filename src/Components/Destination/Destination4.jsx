@@ -6,7 +6,7 @@ const Destination4 = () => {
     const destinationContent = [
         {img:'/assets/img/destails/Premier-Auto-Rental-&-Fleet-Solutions.png', location:'UAE', title:'Premier Auto Rental Services', rating:'4.7', day:'Daily', number:'20+', price:'Quote'},      
         {img:'/assets/img/destails/Safe-&-Reliable-Taxi-Services.png', location:'UAE', title:'Taxi Services', rating:'4.7', day:'24/7', number:'2000+', price:'Quote'},      
-        {img:'/assets/img/destails/Leading-In-Technology 1.png', location:'UAE & Egypt', title:'Public Transport', rating:'4.7', day:'Daily', number:'1000+', price:'Quote'},      
+        {img:'/assets/img/destails/Leading-In-Technology 1.png', location:'UAE', title:'Public Transport', rating:'4.7', day:'Daily', number:'1000+', price:'Quote'},      
         {img:'/assets/img/destails/School-Transportation-Services.png', location:'UAE', title:'School Transportation', rating:'4.7', day:'Daily', number:'350+', price:'Quote'},      
         {img:'/assets/img/destails/Insurance-Brokers 1.png', location:'UAE', title:'Insurance Brokers', rating:'4.7', day:'—', number:'—', price:'Quote'},      
         {img:'/assets/img/destails/Automobile-Trading 1.png', location:'UAE', title:'Automobile Trading', rating:'4.7', day:'—', number:'—', price:'Quote'},      

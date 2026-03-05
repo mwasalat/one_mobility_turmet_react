@@ -35,7 +35,7 @@ const HeroBanner2 = () => {
                         filter: 'contrast(1.1) saturate(1.2) brightness(1.05)'
                     }}
                 >
-                    <source src="/assets/img/Smart_Mobility_The_Tech_Vision_(No_People).mp4" type="video/mp4" />
+                    <source src="/assets/img/MwasalatMobility4k.mp4" type="video/mp4" />
                 </video>
                 {/* Subtle vignette overlay for cinematic feel */}
                 <div style={{

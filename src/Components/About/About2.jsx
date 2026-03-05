@@ -12,7 +12,7 @@ const About2 = () => {
                                 <div className="row g-3">
                                     {/* Top row: horizontal image spanning full width */}
                                     <div className="col-12">
-                                        <img src="/assets/img/workshop_smart_city.png" alt="Smart City Workshop" className="wow img-custom-anim-left w-100" style={{objectFit: 'cover', borderRadius: '12px', height: '220px'}} data-wow-duration="1.5s" data-wow-delay="0.2s" />
+                                        <img src="/assets/img/dubai_workshop_smart.png" alt="Smart City Workshop" className="wow img-custom-anim-left w-100" style={{objectFit: 'cover', borderRadius: '12px', height: '220px'}} data-wow-duration="1.5s" data-wow-delay="0.2s" />
                                     </div>
                                     {/* Bottom row: two vertical images side by side */}
                                     <div className="col-6">

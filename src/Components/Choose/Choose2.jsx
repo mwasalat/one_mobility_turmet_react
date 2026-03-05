@@ -15,7 +15,7 @@ const Choose2 = () => {
             <div className="container">
                 <div className="choose-us-wrapper">
                     <div className="row g-4 align-items-center">
-                        <div className="col-xl-7 col-lg-6">
+                        <div className="col-xl-6 col-lg-6">
                             <div className="choose-us-content">
                                 <div className="section-title">
                                     {/* <span className="sub-title wow fadeInUp">
@@ -74,13 +74,13 @@ const Choose2 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-5 col-lg-6 wow fadeInUp wow" data-wow-delay=".3s">
+                        <div className="col-xl-6 col-lg-6 wow fadeInUp wow" data-wow-delay=".3s">
                             <div className="choose-us-thumb">
                                 <img
                                     src="/assets/img/about/dubai_smart_city_vertical.png"
                                     alt="img"
                                     className="wow"
-                                    style={{ width: '100%', height: 'auto', objectFit: 'contain', objectPosition: 'center', display: 'block' }}
+                                    style={{ width: '110%', height: 'auto', objectFit: 'contain', objectPosition: 'center', display: 'block', borderRadius: '12px' }}
                                 />
                             </div>
                         </div>

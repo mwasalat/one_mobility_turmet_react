@@ -9443,6 +9443,9 @@ input.main-search-input::placeholder {
 .header_style_2_0 .cs_main_header{
   padding-top: 30px;
 }
+.cs_site_header.header_style_2 .cs_main_header {
+  background: linear-gradient(180deg, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.25) 70%, transparent 100%);
+}
 .header_style_2_0.header_sticky_style1.cs-gescout_sticky .cs_nav .cs_nav_list>li>a{
   color: #fff;
 } 

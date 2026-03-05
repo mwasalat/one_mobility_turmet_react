@@ -67,7 +67,7 @@ const HeroBanner2 = () => {
                                 <Link to="/destination" className="theme-btn wow fadeInUp" data-wow-delay=".3s">
                                     Our Services <i className="bi bi-arrow-right"></i>
                                 </Link>
-                                <Link to="/contact" className="theme-btn style-2 wow fadeInUp ms-3" data-wow-delay=".5s">
+                                <Link to="/contact" className="theme-btn style-2 wow fadeInUp ms-4" data-wow-delay=".5s" style={{marginLeft: '16px'}}>
                                     Contact Us <i className="bi bi-arrow-right"></i>
                                 </Link>
                             </div>

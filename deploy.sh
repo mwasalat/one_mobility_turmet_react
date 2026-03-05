@@ -13,7 +13,7 @@ sudo apt-get update -y
 sudo apt-get install -y nginx
 
 echo "=== 3/5 Building the project ==="
-cd ~/mwasalat_turmet
+cd /home/onemobility/mwasalat_turmet
 npm ci
 npm run build
 

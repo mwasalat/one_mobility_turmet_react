@@ -5,8 +5,8 @@ const entities = [
     { img: '/assets/img/entities/AMAN_Taxi-01-01-01.png', name: 'Aman Taxi' },
     { img: '/assets/img/entities/Autostrad Logo 2.png', name: 'Autostrad' },
     { img: '/assets/img/entities/colemont.jpg', name: 'Colemont' },
-    { img: '/assets/img/entities/Fastline Bus Logo-01.png', name: 'Fastline Bus' },
-    { img: '/assets/img/entities/One Technology logo.png', name: 'One Technology' },
+    // { img: '/assets/img/entities/Fastline Bus Logo-01.png', name: 'Fastline Bus' },
+    // { img: '/assets/img/entities/One Technology logo.png', name: 'One Technology' },
     { img: '/assets/img/entities/Pioneer logo-01.png', name: 'Pioneer' },
 ];
 

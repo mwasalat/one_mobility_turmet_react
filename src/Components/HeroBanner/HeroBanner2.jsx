@@ -37,9 +37,9 @@ const HeroBanner2 = () => {
                     <div className="row">
                         <div className="col-lg-7">
                             <div className="hero-content" style={{
-                                background: 'rgba(0, 0, 0, 0.45)',
-                                backdropFilter: 'blur(6px)',
-                                WebkitBackdropFilter: 'blur(6px)',
+                                background: 'rgba(0, 0, 0, 0.35)',
+                                backdropFilter: 'blur(4px)',
+                                WebkitBackdropFilter: 'blur(4px)',
                                 borderRadius: '16px',
                                 padding: '40px 44px',
                                 boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3)',
@@ -54,22 +54,14 @@ const HeroBanner2 = () => {
                                 <p className="wow fadeInUp" data-wow-delay=".5s">
                                     {hero.description}
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="hero-cta-section mb-0">
-                <div className="container custom-container-3">
-                    <div className="hero-bottom">
-                        <div className="row justify-content-center">
-                            <div className="col-auto">
-                                <Link to="/destination" className="theme-btn wow fadeInUp" data-wow-delay=".3s">
-                                    Our Services <i className="bi bi-arrow-right"></i>
-                                </Link>
-                                <Link to="/contact" className="theme-btn style-2 wow fadeInUp ms-4" data-wow-delay=".5s" style={{marginLeft: '16px'}}>
-                                    Contact Us <i className="bi bi-arrow-right"></i>
-                                </Link>
+                                <div style={{marginTop: '28px', display: 'flex', gap: '20px', flexWrap: 'wrap'}}>
+                                    <Link to="/destination" className="theme-btn wow fadeInUp" data-wow-delay=".7s">
+                                        Our Services <i className="bi bi-arrow-right"></i>
+                                    </Link>
+                                    <Link to="/contact" className="theme-btn style-2 wow fadeInUp" data-wow-delay=".9s">
+                                        Contact Us <i className="bi bi-arrow-right"></i>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>

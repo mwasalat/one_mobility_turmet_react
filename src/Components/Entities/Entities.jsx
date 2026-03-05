@@ -22,7 +22,7 @@ const Entities = () => {
                 <div className="entities-wrapper">
                     <div className="row g-4 justify-content-center align-items-center">
                         {entities.map((entity, i) => (
-                            <div key={i} className="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay={`${0.1 * (i + 1)}s`}>
+                            <div key={i} className="col-xl col-lg col-md-4 col-sm-6 col-6 wow fadeInUp" data-wow-delay={`${0.1 * (i + 1)}s`}>
                                 <div className="entity-card">
                                     <img src={entity.img} alt={entity.name} />
                                 </div>

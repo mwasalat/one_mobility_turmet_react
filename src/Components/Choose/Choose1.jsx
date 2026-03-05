@@ -59,9 +59,9 @@ const Choose1 = () => {
                     {/* Content Side */}
                     <div className="col-lg-6 wow fadeInRight" data-wow-delay=".3s">
                         <div className="section-title mb-4">
-                            <span className="sub-title wow fadeInUp">Why Choose Us</span>
+                            {/* <span className="sub-title wow fadeInUp">Why Choose Us</span> */}
                             <h2 className="wow fadeInUp" data-wow-delay=".2s">
-                                Welcome to Mwasalat Holdings
+                                Why Choose Us
                             </h2>
                         </div>
                         <p className="wow fadeInUp mb-4" data-wow-delay=".3s" style={{color: '#666', lineHeight: '1.8'}}>

@@ -18,11 +18,11 @@ const Choose2 = () => {
                         <div className="col-xl-7 col-lg-6">
                             <div className="choose-us-content">
                                 <div className="section-title">
-                                    <span className="sub-title wow fadeInUp">
+                                    {/* <span className="sub-title wow fadeInUp">
                                         Why Choose Us
-                                    </span>
+                                    </span> */}
                                     <h2 className="wow fadeInUp wow" data-wow-delay=".3s">
-                                        Welcome to Mwasalat Holdings
+                                         Why Choose Us
                                     </h2>
                                 </div>
                                 <p className="wow fadeInUp wow" data-wow-delay=".3s">

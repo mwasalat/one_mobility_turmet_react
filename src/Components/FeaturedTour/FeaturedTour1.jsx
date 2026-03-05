@@ -69,11 +69,11 @@ const FeaturedTour1 = () => {
             </div>
             <div className="container">
                 <div className="section-title">
-                    <span className="sub-title wow fadeInUp">
+                    {/* <span className="sub-title wow fadeInUp">
                         Our Services
-                    </span>
+                    </span> */}
                     <h2 className="wow fadeInUp wow" data-wow-delay=".5s">
-                        Mwasalat Holdings Services
+                        Our Services
                     </h2>
                 </div>
                 <p className="wow fadeInUp wow" data-wow-delay=".7s">

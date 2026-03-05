@@ -14,9 +14,9 @@ const Testimonial2 = () => {
                         <div className="col-lg-7">
                             <div className="testimonial-content">
                                 <div className="section-title">
-                                    <span className="sub-title wow fadeInUp">
+                                    {/* <span className="sub-title wow fadeInUp">
                                         About GCEO
-                                    </span>
+                                    </span> */}
                                     <h2 className="wow fadeInUp" data-wow-delay=".5s">
                                         About GCEO
                                     </h2>

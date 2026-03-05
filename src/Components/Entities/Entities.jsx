@@ -15,8 +15,8 @@ const Entities = () => {
         <section className="entities-section section-padding">
             <div className="container">
                 <div className="section-title text-center mb-5">
-                    <span className="sub-title wow fadeInUp">Our Group</span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">Our Entities</h2>
+                    {/* <span className="sub-title wow fadeInUp">Our Group</span> */}
+                    <h2 className="wow fadeInUp" data-wow-delay=".3s">Our Business Entities</h2>
                     <p className="wow fadeInUp" data-wow-delay=".5s">Companies operating under Mwasalat Holdings</p>
                 </div>
                 <div className="entities-wrapper">

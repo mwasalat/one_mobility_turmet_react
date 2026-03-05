@@ -8,8 +8,13 @@ const About2 = () => {
                 <div className="about-wrapper-2">
                     <div className="row g-4 align-items-stretch">
                         <div className="col-lg-6 d-flex">
-                            <div className="about-image float-bob-y w-100">
-                                <img src="/assets/img/about/03.png" alt="img" className="wow img-custom-anim-top w-100 h-100" style={{objectFit: 'cover'}} data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                            <div className="row g-3 w-100 float-bob-y">
+                                <div className="col-6">
+                                    <img src="/assets/img/about/03.png" alt="img" className="wow img-custom-anim-top w-100 h-100" style={{objectFit: 'cover', borderRadius: '10px'}} data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                                </div>
+                                <div className="col-6">
+                                    <img src="/assets/img/smart_city_school_buses.png" alt="img" className="wow img-custom-anim-top w-100 h-100" style={{objectFit: 'cover', borderRadius: '10px'}} data-wow-duration="1.5s" data-wow-delay="0.5s" />
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-6">

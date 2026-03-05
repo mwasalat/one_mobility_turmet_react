@@ -77,7 +77,7 @@ const Choose2 = () => {
                         <div className="col-xl-5 col-lg-6 wow fadeInUp wow" data-wow-delay=".3s">
                             <div className="choose-us-thumb">
                                 <img
-                                    src="/assets/img/mwasalat_holdings_dubai_img.png"
+                                    src="/assets/img/about/dubai_smart_instead_of_mwasalt.png"
                                     alt="img"
                                     className="wow"
                                     style={{ width: '100%', height: 'auto', objectFit: 'contain', objectPosition: 'center', display: 'block' }}

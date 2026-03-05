@@ -23,16 +23,28 @@ const HeroBanner2 = () => {
                     playsInline
                     style={{
                         position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)',
+                        minWidth: '100%',
+                        minHeight: '100%',
+                        width: 'auto',
+                        height: 'auto',
                         objectFit: 'cover',
-                        zIndex: 0
+                        zIndex: 0,
+                        filter: 'contrast(1.1) saturate(1.2) brightness(1.05)'
                     }}
                 >
                     <source src="/assets/img/Smart_Mobility_The_Tech_Vision_(No_People).mp4" type="video/mp4" />
                 </video>
+                {/* Subtle vignette overlay for cinematic feel */}
+                <div style={{
+                    position: 'absolute',
+                    inset: 0,
+                    background: 'radial-gradient(ellipse at center, transparent 50%, rgba(0,0,0,0.35) 100%)',
+                    zIndex: 1,
+                    pointerEvents: 'none'
+                }}></div>
                 <div className="container custom-container-3" style={{position: 'relative', zIndex: 2}}>
                     <div className="row">
                         <div className="col-lg-7">
@@ -54,14 +66,7 @@ const HeroBanner2 = () => {
                                 <p className="wow fadeInUp" data-wow-delay=".5s">
                                     {hero.description}
                                 </p>
-                                <div style={{marginTop: '28px', display: 'flex', gap: '20px', flexWrap: 'wrap'}}>
-                                    <Link to="/destination" className="theme-btn wow fadeInUp" data-wow-delay=".7s">
-                                        Our Services <i className="bi bi-arrow-right"></i>
-                                    </Link>
-                                    <Link to="/contact" className="theme-btn style-2 wow fadeInUp" data-wow-delay=".9s">
-                                        Contact Us <i className="bi bi-arrow-right"></i>
-                                    </Link>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

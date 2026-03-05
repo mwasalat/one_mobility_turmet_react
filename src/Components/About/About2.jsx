@@ -6,15 +6,11 @@ const About2 = () => {
 <section className="about-section section-padding fix">
             <div className="container">
                 <div className="about-wrapper-2">
-                    <div className="row g-4">
+                    <div className="row g-4 align-items-center">
                         <div className="col-lg-6">
-                            <div className="about-image">
-                                <img src="/assets/img/about/03.png" alt="img" className="wow img-custom-anim-left" />
-                                <div className="shape-image float-bob-y">
-                                    <img src="/assets/img/about/04.png" alt="img" />
-                                </div>
+                            <div className="about-image float-bob-y">
                                 <div className="about-image-2">
-                                    <img src="/assets/img/about/05_img.png" alt="img" className="wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s" />
+                                    <img src="/assets/img/about/03.png" alt="img" className="wow img-custom-anim-top" data-wow-duration="1.5s" data-wow-delay="0.3s" />
                                 </div>
                             </div>
                         </div>

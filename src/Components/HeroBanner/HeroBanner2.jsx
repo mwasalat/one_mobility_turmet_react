@@ -33,20 +33,18 @@ const HeroBanner2 = () => {
                 >
                     <source src="/assets/img/Smart_Mobility_The_Tech_Vision_(No_People).mp4" type="video/mp4" />
                 </video>
-                <div style={{
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    background: 'linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%)',
-                    zIndex: 1,
-                    borderRadius: 'inherit'
-                }}></div>
                 <div className="container custom-container-3" style={{position: 'relative', zIndex: 2}}>
                     <div className="row">
-                        <div className="col-lg-6">
-                            <div className="hero-content">
+                        <div className="col-lg-7">
+                            <div className="hero-content" style={{
+                                background: 'rgba(0, 0, 0, 0.45)',
+                                backdropFilter: 'blur(6px)',
+                                WebkitBackdropFilter: 'blur(6px)',
+                                borderRadius: '16px',
+                                padding: '40px 44px',
+                                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3)',
+                                border: '1px solid rgba(255, 255, 255, 0.08)'
+                            }}>
                                 <div className="sub-title wow fadeInUp">
                                     {hero.subtitle}
                                 </div>

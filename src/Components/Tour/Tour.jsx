@@ -11,7 +11,7 @@ const Tour = () => {
         {img:'/assets/img/destination/05.jpg', location:'UAE', title:'Insurance Brokers', rating:'4.7', day:'—', number:'—', price:'Quote'},      
         {img:'/assets/img/destination/06.jpg', location:'UAE', title:'Automobile Trading', rating:'4.7', day:'—', number:'—', price:'Quote'},      
         {img:'/assets/img/destination/07.jpg', location:'UAE', title:'Service Center', rating:'4.7', day:'Since 1997', number:'7500+', price:'Quote'},      
-        {img:'/assets/img/destination/08.jpg', location:'Global', title:'Leading in Technology', rating:'4.7', day:'—', number:'—', price:'Quote'},       
+        {img:'/assets/img/destination/08.jpg', location:'UAE', title:'Leading in Technology', rating:'4.7', day:'—', number:'—', price:'Quote'},       
         {img:'/assets/img/destination/04.jpg', location:'UAE', title:'School Transportation', rating:'4.7', day:'Daily', number:'350+', price:'Quote'},          
       ]; 
 

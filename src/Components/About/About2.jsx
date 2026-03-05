@@ -8,18 +8,18 @@ const About2 = () => {
                 <div className="about-wrapper-2">
                     <div className="row g-4 align-items-stretch">
                         <div className="col-lg-6 d-flex">
-                            <div className="w-100 float-bob-y">
-                                <div className="row g-3">
-                                    {/* Top row: horizontal image spanning full width */}
-                                    <div className="col-12">
-                                        <img src="/assets/img/dubai_workshop_smart.png" alt="Smart City Workshop" className="wow img-custom-anim-left w-100" style={{objectFit: 'cover', borderRadius: '12px', height: '220px'}} data-wow-duration="1.5s" data-wow-delay="0.2s" />
+                            <div className="w-100 float-bob-y d-flex flex-column" style={{gap: '12px'}}>
+                                {/* Top row: horizontal image */}
+                                <div style={{flex: '0 0 auto'}}>
+                                    <img src="/assets/img/dubai_workshop_smart.png" alt="Smart City Workshop" className="wow img-custom-anim-left w-100" style={{objectFit: 'cover', borderRadius: '12px', height: '180px'}} data-wow-duration="1.5s" data-wow-delay="0.2s" />
+                                </div>
+                                {/* Bottom row: two vertical images side by side */}
+                                <div className="d-flex" style={{flex: '1 1 auto', gap: '12px'}}>
+                                    <div style={{flex: 1}}>
+                                        <img src="/assets/img/about/03.png" alt="Smart City" className="wow img-custom-anim-top w-100 h-100" style={{objectFit: 'cover', borderRadius: '12px'}} data-wow-duration="1.5s" data-wow-delay="0.4s" />
                                     </div>
-                                    {/* Bottom row: two vertical images side by side */}
-                                    <div className="col-6">
-                                        <img src="/assets/img/about/03.png" alt="Smart City" className="wow img-custom-anim-top w-100" style={{objectFit: 'cover', borderRadius: '12px', height: '280px'}} data-wow-duration="1.5s" data-wow-delay="0.4s" />
-                                    </div>
-                                    <div className="col-6">
-                                        <img src="/assets/img/smart_city_school_buses.png" alt="School Buses" className="wow img-custom-anim-right w-100" style={{objectFit: 'cover', borderRadius: '12px', height: '280px'}} data-wow-duration="1.5s" data-wow-delay="0.6s" />
+                                    <div style={{flex: 1}}>
+                                        <img src="/assets/img/smart_city_school_buses.png" alt="School Buses" className="wow img-custom-anim-right w-100 h-100" style={{objectFit: 'cover', borderRadius: '12px'}} data-wow-duration="1.5s" data-wow-delay="0.6s" />
                                     </div>
                                 </div>
                             </div>

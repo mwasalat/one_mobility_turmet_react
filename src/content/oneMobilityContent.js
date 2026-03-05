@@ -79,7 +79,7 @@ export const services = {
   publicTransport: {
     title: 'Pioneering Public Transport Services',
     points: [
-      'Cost-effective bus service in the capitals of UAE and Egypt, with future expansion plans.',
+      'Cost-effective bus service in the capitals of UAE, with future expansion plans.',
       'Fleet of 600 buses with Intelligent Transport systems, air conditioning, and wheelchair accessibility.',
       'City and suburb routes with frequent schedules, journey planners and real-time bus information.',
       'Aims to reduce traffic congestion and carbon emissions. 600 buses in UAE, 400 in Egypt.',

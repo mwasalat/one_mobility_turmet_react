@@ -6,7 +6,7 @@ const Tour = () => {
     const destinationContent = [
         {img:'/assets/img/destination/01.jpg', location:'UAE', title:'Premier Auto Rental Services', rating:'4.7', day:'Daily', number:'20+', price:'Quote'},      
         {img:'/assets/img/destination/02.jpg', location:'UAE', title:'Taxi Services', rating:'4.7', day:'24/7', number:'2000+', price:'Quote'},      
-        {img:'/assets/img/destination/03.jpg', location:'UAE & Egypt', title:'Public Transport', rating:'4.7', day:'Daily', number:'1000+', price:'Quote'},      
+        {img:'/assets/img/destination/03.jpg', location:'UAE', title:'Public Transport', rating:'4.7', day:'Daily', number:'1000+', price:'Quote'},      
         {img:'/assets/img/destination/04.jpg', location:'UAE', title:'School Transportation', rating:'4.7', day:'Daily', number:'350+', price:'Quote'},      
         {img:'/assets/img/destination/05.jpg', location:'UAE', title:'Insurance Brokers', rating:'4.7', day:'—', number:'—', price:'Quote'},      
         {img:'/assets/img/destination/06.jpg', location:'UAE', title:'Automobile Trading', rating:'4.7', day:'—', number:'—', price:'Quote'},      

@@ -50,7 +50,7 @@ const FeaturedTour1 = () => {
         
         {img:'/assets/img/destails/Premier-Auto-Rental-&-Fleet-Solutions.png', location:'UAE', title:'Premier Auto Rental <br>& Fleet Solutions', price:'Quote'},                  
         {img:'/assets/img/destails/Safe-&-Reliable-Taxi-Services.png', location:'UAE', title:'Safe & Reliable <br>Taxi Services', price:'Quote'},                  
-        {img:'/assets/img/destails/Leading-In-Technology 1.png', location:'UAE & Egypt', title:'Public Transport <br>Services', price:'Quote'},                  
+        {img:'/assets/img/destails/Leading-In-Technology 1.png', location:'UAE', title:'Public Transport <br>Services', price:'Quote'},                  
         {img:'/assets/img/destails/School-Transportation-Services.png', location:'UAE', title:'School Transportation <br>Services', price:'Quote'},                               
       ]; 
 
